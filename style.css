@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f9ff;
+}
+
+header {
+    background: #0b5ed7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 10px;
+    color: #0b5ed7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    background: #0b5ed7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
