@@ -1,34 +1,43 @@
+/* GENERAL */
 body {
-    font-family: Arial;
     margin: 0;
-    background: #f4f9ff;
+    font-family: Arial, sans-serif;
+    background-color: #f4f9ff;
 }
 
+/* HEADER */
 header {
-    background: #0b5ed7;
+    background-color: #0b5ed7;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
+/* NAVIGATION */
 nav {
-    background: #ffffff;
+    background-color: white;
     text-align: center;
     padding: 10px;
 }
 
 nav a {
-    margin: 10px;
     color: #0b5ed7;
     text-decoration: none;
     font-weight: bold;
+    margin: 0 10px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HOME SECTION */
 .hero {
-    padding: 40px;
     text-align: center;
+    padding: 40px;
 }
 
+/* FEATURES */
 .features {
     display: flex;
     justify-content: center;
@@ -39,19 +48,24 @@ nav a {
 .box {
     background: white;
     padding: 20px;
+    width: 160px;
     border-radius: 8px;
-    width: 150px;
     text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
+/* CONTENT PAGES */
 .content {
     padding: 30px;
     text-align: center;
 }
 
+/* FOOTER */
 footer {
-    background: #0b5ed7;
+    background-color: #0b5ed7;
     color: white;
     text-align: center;
     padding: 10px;
 }
+
+
